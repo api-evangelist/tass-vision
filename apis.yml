@@ -1,7 +1,27 @@
 aid: tass-vision
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tass-vision.png
 name: Tass Vision
-description: Tass Vision is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Tass Vision is a venture-backed technology startup that operates a product
+  website at tassvision.ai. It markets two named products, SITRAC and VITRAC, each with
+  its own product page and pricing page, alongside About, How It Works, Blog, Calendar,
+  and Contact sections. The public site is a Vue single-page web application with Zendesk-based
+  customer support. The company is backed by 500 Global and Big Sky Capital among a
+  cluster of Central Asian venture funds and accelerators (IT Park Uzbekistan, Astana
+  Hub, National UzVC, and others). As of this profiling the company exposes no public
+  API, developer portal, SDKs, or machine-readable API specifications; this profile
+  was surfaced as a 500 Global portfolio company and enriched with a live domain-security
+  probe.'
 url: https://raw.githubusercontent.com/api-evangelist/tass-vision/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Startup
+- Venture Backed
+- 500 Global
+- SITRAC
+- VITRAC
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://tassvision.ai
+- type: Blog
+  url: https://tassvision.ai/blog
+- type: Pricing
+  url: https://tassvision.ai/pricing
+- type: PrivacyPolicy
+  url: https://tassvision.ai/privacy
+- type: Support
+  url: https://tassvision.ai/contact
+- type: GettingStarted
+  url: https://tassvision.ai/how-it-works
+- type: DomainSecurity
+  url: security/tass-vision-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
